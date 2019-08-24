@@ -1,4 +1,4 @@
-print_output = false
+print_output = true
 input_section = AES 
 circuit_type = NoFixedKey
 
@@ -22,6 +22,11 @@ input_file_party_2 = ../../samples/assets/circuits/SHA256/SHA256PartyTwoInputs.t
 circuit_file = ../../samples/assets/circuits/ADD/NigelAdd32.txt
 input_file_party_1 = ../../samples/assets/circuits/ADD/ADDPartyOneInputs.txt
 input_file_party_2 = ../../samples/assets/circuits/ADD/ADDPartyTwoInputs.txt
+
+[AND-Linux]
+circuit_file = resources/circuit/AndCircuit.txt
+input_file_party_1 = resources/input/AndInput1.txt
+input_file_party_2 = resources/input/AndInput2.txt
 
 [AES-Windows]
 circuit_file = ../../../../samples/assets/circuits/AES/NigelAes.txt

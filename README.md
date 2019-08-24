@@ -17,8 +17,8 @@ output of the circuit and nothing else. At a high level, the sender prepares the
 
 ### INSTALLATION AND EXECUTION
 
-1. Clone the repository on your home directory
-2. Go to the SemiHonestYaoGC directory: cd SemiHonestYaoGC
+1. Clone the repository on your home directory: `git clone https://github.com/ViDurand/SemiHonestYaoGC.git`
+2. Go to the SemiHonestYaoGC directory: `cd SemiHonestYaoGC`
 3. Run the `cmake -G "Unix Makefiles"` command
 4. Run the `make"` command
 5. Open a new terminal, go to the SemiHonestYaoGC directory and execute the sender (a.k.a circuit generator) run: `./SemiHonestYaoGC -partyID 0 -configFile resources/config/YaoConfig.txt -partiesFile resources/config/Parties -internalIterationsNumber 1`
@@ -38,6 +38,7 @@ The circuit output should be visible on the second party terminal window.
 7. Malicious Two Party Computation Based on Garbled Circuits: https://github.com/emp-toolkit/emp-m2pc
 8. 'Bristol Fashion' MPC Circuits: https://homes.esat.kuleuven.be/~nsmart/MPC/
 9. Fair Play, Secure Function Evaluation: https://www.cs.huji.ac.il/project/Fairplay/home.html
+10. Applications of Secure Multiparty Computation, Peeter Laud and Liina Kamm: http://ebooks.iospress.nl/volume/applications-of-secure-multiparty-computation
 
 
 

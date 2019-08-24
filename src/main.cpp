@@ -19,12 +19,6 @@ int main(int argc, char* argv[]) {
         // run party two of Yao protocol.
         p2.run();
 		auto output = p2.getOutput();
-		// display the output
-		cout << "circuit output:" << endl;
-		for (int i = 0; i < output.size(); i++)
-			cout << (int) output[i] << " ";
-
-		cout << endl;
 
 	} else {
 		std::cerr << "Usage: ./SemiHonestYaoGC <partyID(0|1)> <config/file/path>" << std::endl;
