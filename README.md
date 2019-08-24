@@ -13,7 +13,7 @@ output of the circuit and nothing else. At a high level, the sender prepares the
 
 ### DEPENDENCIES
 
-1. libscapi: install and build libscapi following the instructions available here https://github.com/cryptobiu/libscapi/blob/master/build_scripts/INSTALL.md
+- libscapi: install and build libscapi following the instructions available here https://github.com/cryptobiu/libscapi/blob/master/build_scripts/INSTALL.md
 
 ### INSTALLATION AND EXECUTION
 
@@ -26,6 +26,18 @@ output of the circuit and nothing else. At a high level, the sender prepares the
 
 
 The circuit output should be visible on the second party terminal window.
+
+### REFERENCES
+
+1. Implementing Secure Computation, Benny Pinkas, University of Haifa: https://www.hyperelliptic.org/SPEED/slides09/pinkas-talk.pdf
+2. List of software packages and tools for developing MPC systems: http://www.multipartycomputation.com/mpc-software
+3. MPyC - Secure Multiparty Computation in Python: https://www.win.tue.nl/~berry/mpyc/
+4. A curated list of multi party computation resources and links: https://github.com/rdragos/awesome-mpc
+5. Implementation of a Secure Multiparty Computation Protocolhttps, M.Sc.(Tech.) Thesis, University of Turku, Tahsin Civan Mert Dönmez://www.utupub.fi/bitstream/handle/10024/144483/diplomity%C3%B62017Donmez.pdf?sequence=1&isAllowed=y
+6. Protocols that uses libscapi: https://github.com/Aner2005/Protocols
+7. Malicious Two Party Computation Based on Garbled Circuits: https://github.com/emp-toolkit/emp-m2pc
+8. 'Bristol Fashion' MPC Circuits: https://homes.esat.kuleuven.be/~nsmart/MPC/
+9. Fair Play, Secure Function Evaluation: https://www.cs.huji.ac.il/project/Fairplay/home.html
 
 
 
