@@ -33,7 +33,7 @@ The circuit output should be visible on the second party terminal window.
 2. List of software packages and tools for developing MPC systems: http://www.multipartycomputation.com/mpc-software
 3. MPyC - Secure Multiparty Computation in Python: https://www.win.tue.nl/~berry/mpyc/
 4. A curated list of multi party computation resources and links: https://github.com/rdragos/awesome-mpc
-5. Implementation of a Secure Multiparty Computation Protocol, M.Sc.(Tech.) Thesis, University of Turku, Tahsin Civan Mert Dönmez: https//www.utupub.fi/bitstream/handle/10024/144483/diplomity%C3%B62017Donmez.pdf?sequence=1&isAllowed=y
+5. Implementation of a Secure Multiparty Computation Protocol, M.Sc.(Tech.) Thesis, University of Turku, Tahsin Civan Mert Dönmez: https://www.utupub.fi/bitstream/handle/10024/144483/diplomity%C3%B62017Donmez.pdf?sequence=1&isAllowed=y
 6. Protocols that uses libscapi: https://github.com/Aner2005/Protocols
 7. Malicious Two Party Computation Based on Garbled Circuits: https://github.com/emp-toolkit/emp-m2pc
 8. 'Bristol Fashion' MPC Circuits: https://homes.esat.kuleuven.be/~nsmart/MPC/
